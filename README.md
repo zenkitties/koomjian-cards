@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+A pre-requisite before running the below commands. This will download all of the npm packages necessary to use `npm start`.
+
+### `npm install`
+
 In the project directory, you can run:
 
 ### `npm start`
