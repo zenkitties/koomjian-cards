@@ -1,0 +1,20 @@
+@import '../variables.scss';
+
+.App {
+  display: flex;
+  align-self: flex-start;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: $default-font;
+
+  a {
+    text-decoration: none;
+    color: #000;
+    transition: all 205ms;
+
+    &:hover {
+      color: rgba(39, 189, 245, 0.8);
+    }
+  }
+}

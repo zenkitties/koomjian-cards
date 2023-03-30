@@ -1,0 +1,40 @@
+.shopping-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 30%;
+
+    .cart-container {
+        display: flex;
+        flex-direction: wrap;
+        align-items: center;
+
+        .quantity {
+            display: flex;
+            position: relative;
+            right: 24px;
+            bottom: 1px;
+            font-weight: bold;
+        }
+
+        img {
+            height: 39px;
+            padding-right: 5px;
+        }
+    }
+
+    .auth {
+        display: flex;
+
+        ul {
+            padding: 0;
+            display: flex;
+            list-style: none;
+
+            li {
+               margin: 10px;
+            }
+        }
+    }
+}
